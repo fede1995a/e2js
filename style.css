@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2A2E45;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pizza-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*border: 1px red solid;*/
+}
+
+.container {
+    font-size: 2rem;
+    font-weight: 0.5rem;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: yellow
+}
+
+.selection {
+    padding: 30px;
+}
+
+.seleccionar input {
+    width: 100%;
+    max-width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.seleccionar input p {
+    padding-left: 1rem;
+    font-size: large;
+}
+
+.seleccionar input p::placeholder {
+    padding-left: 2rem;
+    text-align: center;
+}
+
+.seleccionar-btn {
+    margin: 20px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 1rem;
+    color: black;
+    background-color: coral
+}
+
+.title p {
+    color: limegreen;
+}
+
+.message {
+    color: green;
+}
+
+.precio p {
+    color: lime
+}
